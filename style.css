@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "myFont";
+  src: url("font/Pixellari.ttf");
+}
+
 :root {
   --primary-color: rgba(22, 119, 172, 0.858);
   --secondary-color: rgb(255, 130, 193);
@@ -32,10 +37,9 @@ body {
   justify-content: center;
   align-items: center;
   gap: 15px;
-  font-family: monospace;
+  font-family: "myFont";
   font-size: 2rem;
-  letter-spacing: 0.4rem;
-  font-weight: bold;
+  /* letter-spacing: 0.4rem; */
   position: relative;
 }
 
